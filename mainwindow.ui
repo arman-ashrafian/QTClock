@@ -35,7 +35,7 @@ background-color: rgb(200);</string>
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="usesScrollButtons">
        <bool>false</bool>
@@ -49,7 +49,26 @@ background-color: rgb(200);</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_2">
         <item row="0" column="0">
-         <widget class="QLCDNumber" name="clock"/>
+         <widget class="QLCDNumber" name="clock">
+          <property name="font">
+           <font>
+            <family>Agency FB</family>
+            <pointsize>18</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="smallDecimalPoint">
+           <bool>false</bool>
+          </property>
+          <property name="digitCount">
+           <number>5</number>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>

@@ -45,22 +45,17 @@ QString MainWindow::getTime()
 
     int hour = lt->tm_hour;
     int min = lt->tm_min;
-    bool isAm;
 
     if(hour > 12) {
         hour -= 12;
-        isAm = false;
     }
 
     if(min < 10) {
         ss << hour << ":0" << min;
 
-        isAm ? ss << "" : ss << "";
     }
     else {
         ss << hour << ":" << min;
-
-        isAm ? ss << "" : ss << "";
     }
 
     return QString::fromStdString(ss.str());
