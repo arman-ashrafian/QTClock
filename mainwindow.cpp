@@ -161,6 +161,9 @@ void MainWindow::on_stopwatchReset_clicked()
 {
     stopWatchMin = 0;
     stopWatchSec = 0;
+
+    // stop the stopwatch when the reset button is clicked
+    stopWatchRunning = false;
 }
 
 
