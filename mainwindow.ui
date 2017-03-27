@@ -16,6 +16,9 @@
   <property name="styleSheet">
    <string notr="true">background-color:rgb(200,200,200)</string>
   </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <property name="styleSheet">
     <string notr="true">background-color: rgb(100);</string>

@@ -22,8 +22,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     timer = startTimer(1000);
 
-    MainWindow::setMinimumHeight(1000);
-    MainWindow::setMinimumWidth(1000);
+    MainWindow::setMinimumHeight(100);
+    MainWindow::setMinimumWidth(100);
 
     ui->timerMins->setMinimum(0); // set timerMins minimum = 0
     ui->timerSecs->setMinimum(0); // set timerSecs minimum = 0
